@@ -3,7 +3,7 @@ var gifFormiga = document.getElementById("gif_formiga");
 var saudacao = document.getElementById("saudacao");
 var frase = document.getElementById("frase");
 var data = new Date();
-var horas = 18; //data.getHours();
+var horas = data.getHours();
 
 //Criação das funções
 function manha() {
