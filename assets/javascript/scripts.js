@@ -25,7 +25,7 @@ function noite() {
 }
 
 //Teste condicional para definir período
-if (horas > 6 && horas < 12) {
+if (horas >= 6 && horas < 12) {
     manha();
  }else if (horas >= 12 && horas < 18) {
     tarde();
